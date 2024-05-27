@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html 7th Question</title>
+</head>
+
+<body>
+    <table border="3">
+        <tr>
+            <td>
+                <form action=""  enctype = "multipart/form-Data">
+                    <fieldset>
+                        <h1 align="center"><strong>Login Form</strong></h1>
+                    </fieldset>
+                    <p><label for="name">Name</label>
+                        <input type="text" placeholder="FirstName" id="name"> <input type="text" placeholder="LastName">
+                    </p>
+                    <p><label for="email">Email</label>
+                        <input type="email" placeholder="Email" id="email">
+                    </p>
+                    <p>
+                        <label for="mobile">Phone Number</label>
+                        <input type="" placeholder="10-digit number" id="mobile" min="1000000000" max="9999999999"> <br>
+                    </p>
+                    <p><label for="pwd">Password</label>
+                        <input type="password" name="" id="" placeholder="password" id="pwd"> <br>
+                    </p>
+                    <p>
+                        Gender <br>
+                        <!-- <label for="Gender"></label> <br> -->
+                        <input type="radio" name="gender" value="male" checked id="male">  <label for="male">Male</label> <br>
+                        <input type="radio" name="gender" value="female" id="female">  <label for="female">Female</label> <br>
+                        <input type="radio" name="gender" value="notwishtodicslose" id="notwishtodicslose"> <label for="notwishtodicslose">Not wish to disclose</label>  <br> 
+                    </p>
+                    <p>
+                        <label for="address">Address:</label> <br>
+                        <textarea name="address" id="" rows="4" cols="25" id="address"></textarea>
+                    </p>
+                    <p>
+                        Date of Birth <br>
+                        <input type="date">
+                    </p>
+                    <p>
+                        Time <br>
+                        <input type="time">
+                    </p>
+                    <p>
+                        Languages <br>
+                        <input type="checkbox" name=languages[] values="tamil" checked>Tamil <br>
+                        <input type="checkbox" name=languages[] values="english" >English <br>
+                        <input type="checkbox" name=languages[] values="french">French
+                    </p>
+                    <p>
+                        Select your field of interest: <br>
+                        <select name="fieldofinterest" multiple size="3">
+                            <option value="music">Music</option>
+                            <option value="cycling">Cycling</option>
+                            <option value="badmiton">Badmiton</option>
+                            <option value="movies">Movies</option>
+                            <option value="books">Books</option>
+                        </select>
+                    </p>
+                    <p>
+                        Upload your Photo <br>
+                        <input type="file" value="photo">
+                    </p>
+                    <p>
+                        <input type="submit">
+                        <input type="reset">
+                    </p>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
